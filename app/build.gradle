@@ -27,7 +27,9 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
-
+        packagingOptions {
+            resources.excludes.add("META-INF/*")
+        }
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures{
@@ -35,7 +37,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -57,8 +59,11 @@ dependencies {
     androidTestImplementation libs.espresso.core
     implementation libs.play.services.maps
     implementation 'com.google.android.gms:play-services-location:21.2.0'
-    implementation 'org.mongodb:mongodb-driver-sync:5.0.0'
+// https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
+    implementation group: 'org.mongodb', name: 'mongo-java-driver', version: '3.12.14'
     // https://mvnrepository.com/artifact/de.mkammerer/argon2-jvm
-    implementation group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.67'
+// https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk16
+// https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk18on
+    implementation group: 'org.bouncycastle', name: 'bcprov-jdk18on', version: '1.77'
 
 }
