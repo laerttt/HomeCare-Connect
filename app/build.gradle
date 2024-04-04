@@ -56,4 +56,9 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
     implementation libs.play.services.maps
+    implementation 'com.google.android.gms:play-services-location:21.2.0'
+    implementation 'org.mongodb:mongodb-driver-sync:5.0.0'
+    // https://mvnrepository.com/artifact/de.mkammerer/argon2-jvm
+    implementation group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.67'
+
 }
