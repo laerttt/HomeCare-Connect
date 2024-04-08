@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mongodb:mongo-java-driver:3.12.14" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.mongodb" artifactId="mongo-java-driver" version="3.12.14" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.12.14/850383a126cdc5b363fa9ffc780037f6ebeee704/mongo-java-driver-3.12.14.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.12.14/aa7722b3b1ca4d9506829b1d2adb0d0d54b92250/mongo-java-driver-3.12.14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.12.14/1b1b4ecf6ee9a9dc17eb5357e7708997f82b301b/mongo-java-driver-3.12.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
