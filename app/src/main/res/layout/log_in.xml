@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Confi"
     android:layout_width="match_parent"
@@ -9,10 +10,12 @@
         android:id="@+id/SignUpWelcome"
         android:layout_width="285dp"
         android:layout_height="106dp"
+        android:layout_marginTop="120dp"
         android:text="   Sign Up"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        tools:layout_editor_absoluteX="237dp"
-        tools:layout_editor_absoluteY="48dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/Username"
@@ -21,8 +24,9 @@
         android:ems="10"
         android:hint="Username"
         android:inputType="text"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="199dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUpWelcome" />
 
     <EditText
         android:id="@+id/editTextText6"
@@ -31,8 +35,9 @@
         android:ems="10"
         android:hint="First Name"
         android:inputType="text"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="273dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Username" />
 
     <EditText
         android:id="@+id/editTextText7"
@@ -41,8 +46,9 @@
         android:ems="10"
         android:hint="Last Name"
         android:inputType="text"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="350dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -51,8 +57,9 @@
         android:ems="10"
         android:hint="Enter your password:"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="421dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -61,8 +68,10 @@
         android:ems="10"
         android:hint="Confirm your password:"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="271dp"
-        tools:layout_editor_absoluteY="510dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
         android:id="@+id/Confirm"
@@ -70,6 +79,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Confirm"
-        tools:layout_editor_absoluteX="331dp"
-        tools:layout_editor_absoluteY="582dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
 </androidx.constraintlayout.widget.ConstraintLayout>
