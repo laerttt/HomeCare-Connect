@@ -10,10 +10,15 @@
         <item name="colorSecondaryVariant">@color/pink</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/black </item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
         <!-- Customize your theme here. -->
             <!-- Customize your theme here. -->
             <item name="windowActionBar">false</item>
             <item name="windowNoTitle">true</item>
+    </style>
+  <!-- Base application theme. -->
+    <style name="Base.Theme.HomeCareConnect" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 </resources>

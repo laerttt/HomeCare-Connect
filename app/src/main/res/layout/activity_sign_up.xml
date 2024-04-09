@@ -10,10 +10,11 @@
     <ImageView
         android:id="@+id/logoIMG"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@mipmap/ic_launcher_foreground" />
+        android:layout_height="160dp"
+        android:src="@mipmap/ic_launcher_foreground"/>
 
     <TextView
+        android:layout_marginTop="-40dp"
         android:id="@+id/SignUpWelcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,18 +28,24 @@
         android:shadowDx="15"
 
         android:shadowRadius="1"/>
-
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
         android:layout_marginRight="90dp"
         android:layout_marginLeft="90dp">
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cursorColor="@color/white"
-            android:id="@+id/Username"
             android:hint="Username"
             app:hintTextColor="#fff"
             android:textColorHint="#fff"
@@ -49,6 +56,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/Username"
                 android:textColor="@color/white"/>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -59,7 +67,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginRight="90dp"
-    android:layout_marginLeft="90dp">
+    android:layout_marginLeft="90dp"
+    android:layout_marginBottom="3dp">
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -84,7 +93,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="90dp"
-        android:layout_marginLeft="90dp">
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="3dp">
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -108,7 +118,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="90dp"
-        android:layout_marginLeft="90dp">
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="3dp">
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -168,16 +179,20 @@
         android:backgroundTint="@color/white"
         android:textColor="@color/pink"
         android:text="@string/confirm">
-        <!--        android:text="Confirm"-->
     </Button>
-<!--    <Button-->
-<!--        android:id="@+id/Confirm"-->
-<!--        style="@style/Widget.AppCompat.Button"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Confirm"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />-->
+    <Button
+        android:id="@+id/buttonToLogIn"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="#00000000"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:shadowColor="@color/shadowGrey"
+        android:text="@string/loginHere"/>
 </LinearLayout>
