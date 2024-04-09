@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HomeCare_Connect.iml" filepath="$PROJECT_DIR$/.idea/modules/HomeCare_Connect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HomeCare_Connect.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HomeCare_Connect.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HomeCare_Connect.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HomeCare_Connect.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HomeCare_Connect.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HomeCare_Connect.app.main.iml" />

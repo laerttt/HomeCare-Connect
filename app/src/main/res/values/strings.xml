@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HomeCare Connect</string>
+    <string name="confirm"><b><b>Confirm</b></b></string>
 </resources>

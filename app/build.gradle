@@ -65,5 +65,5 @@ dependencies {
 // https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk16
 // https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk18on
     implementation group: 'org.bouncycastle', name: 'bcprov-jdk18on', version: '1.77'
-
+    implementation 'com.google.android.material:material:1.0.0'
 }
