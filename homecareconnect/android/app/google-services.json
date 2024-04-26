@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "937224573600",
+    "firebase_url": "https://homecareconnect-8ac6e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "homecareconnect-8ac6e",
+    "storage_bucket": "homecareconnect-8ac6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937224573600:android:2b7c7e0a5e58add81bafc5",
+        "android_client_info": {
+          "package_name": "com.example.homecareconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgHTm280G-e170WvArsv-M3CdIRbxoh_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
